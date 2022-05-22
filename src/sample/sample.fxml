@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField layoutX="50.0" layoutY="74.0" prefHeight="34.0" prefWidth="98.0" fx:id="x1Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="y1Text" layoutX="181.0" layoutY="74.0" prefHeight="34.0" prefWidth="98.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="50.0" layoutY="155.0" prefHeight="34.0" prefWidth="98.0" fx:id="x2Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="y2Text" layoutX="181.0" layoutY="155.0" prefHeight="34.0" prefWidth="98.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="115.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пряма А">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="90.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="221.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="y1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="89.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="228.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="y2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="443.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пряма B">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField layoutX="368.0" layoutY="74.0" prefHeight="34.0" prefWidth="98.0" fx:id="x3Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="y3Text" layoutX="505.0" layoutY="74.0" prefHeight="34.0" prefWidth="98.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="368.0" layoutY="155.0" prefHeight="34.0" prefWidth="98.0" fx:id="x4Text">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="y4Text" layoutX="505.0" layoutY="155.0" prefHeight="34.0" prefWidth="98.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Text layoutX="408.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="545.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="y1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="406.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="545.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="y2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="230.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Точка перетину">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField layoutX="179.0" layoutY="312.0" prefHeight="34.0" prefWidth="98.0" fx:id="xText">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="yText" layoutX="359.0" layoutY="312.0" prefHeight="34.0" prefWidth="98.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="resultText" layoutX="277.0" layoutY="413.0" prefHeight="34.0" prefWidth="98.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Separator fx:id="t" layoutX="-5.0" layoutY="61.0" prefHeight="3.0" prefWidth="625.0" />
+      <Separator layoutX="8.0" layoutY="243.0" prefHeight="3.0" prefWidth="618.0" />
+      <Separator layoutX="314.0" layoutY="64.0" orientation="VERTICAL" prefHeight="177.0" prefWidth="4.0" />
+      <Text layoutX="226.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="412.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="y">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="274.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Результат">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="countButton" layoutX="32.0" layoutY="459.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="117.0" text="Вичислити">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="clearButton" layoutX="487.0" layoutY="459.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="117.0" text="Очистити">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="34.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Задача: визначити чи дві прямі перетинаються. Числа не можуть бути дробовими." wrappingWidth="584.0546875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="211.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Виводиться 0 , якщо дві прямі не перетинаються в інакшому випадку 1" wrappingWidth="228.2080078125">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator fx:id="t1" layoutX="4.0" layoutY="527.0" prefHeight="3.0" prefWidth="625.0" />
+   </children>
+</AnchorPane>
